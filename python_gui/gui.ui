@@ -1,0 +1,1752 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>818</width>
+    <height>610</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>820</width>
+    <height>650</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Shell Project</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: #567189;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTabWidget" name="tabWidget_5">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>-30</y>
+      <width>841</width>
+      <height>651</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #567189;</string>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>0</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="tabBarAutoHide">
+     <bool>true</bool>
+    </property>
+    <widget class="QWidget" name="tab_21">
+     <attribute name="title">
+      <string>Login</string>
+     </attribute>
+     <widget class="QLabel" name="label_main_3">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>40</y>
+        <width>481</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Calibri</family>
+        <pointsize>40</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: white;	
+</string>
+      </property>
+      <property name="text">
+       <string>Shell Project</string>
+      </property>
+     </widget>
+     <widget class="QGroupBox" name="groupBox">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>230</y>
+        <width>311</width>
+        <height>191</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Calibri</family>
+        <pointsize>11</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: white;</string>
+      </property>
+      <property name="title">
+       <string>Login</string>
+      </property>
+      <widget class="QLabel" name="label_username_3">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>20</y>
+         <width>81</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Calibri</family>
+         <pointsize>9</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: white;</string>
+       </property>
+       <property name="text">
+        <string>Username:</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_username_3">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>40</y>
+         <width>181</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: #BDCDD6;
+color: black;</string>
+       </property>
+       <property name="frame">
+        <bool>false</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_password_3">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>80</y>
+         <width>101</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Calibri</family>
+         <pointsize>9</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: white;</string>
+       </property>
+       <property name="text">
+        <string>Password:</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_login">
+       <property name="geometry">
+        <rect>
+         <x>130</x>
+         <y>150</y>
+         <width>75</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Calibri</family>
+         <pointsize>9</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: white;</string>
+       </property>
+       <property name="text">
+        <string>Login</string>
+       </property>
+       <property name="autoDefault">
+        <bool>false</bool>
+       </property>
+       <property name="default">
+        <bool>false</bool>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_password_3">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>100</y>
+         <width>181</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: #BDCDD6;
+color: black;</string>
+       </property>
+       <property name="frame">
+        <bool>false</bool>
+       </property>
+       <property name="echoMode">
+        <enum>QLineEdit::Password</enum>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QLabel" name="label_7">
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>160</y>
+        <width>301</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Calibri</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: white;</string>
+      </property>
+      <property name="text">
+       <string>By Roni Khizverg &amp; Or Amram</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_22">
+     <attribute name="title">
+      <string>Shell Project</string>
+     </attribute>
+     <widget class="QTabWidget" name="tabWidget_2">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>10</y>
+        <width>791</width>
+        <height>561</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Calibri</family>
+       </font>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:white;</string>
+      </property>
+      <property name="tabShape">
+       <enum>QTabWidget::Rounded</enum>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab_11">
+       <attribute name="title">
+        <string>Shell</string>
+       </attribute>
+       <widget class="QTabWidget" name="tabWidget">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>781</width>
+          <height>531</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Calibri</family>
+          <pointsize>11</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: white;</string>
+        </property>
+        <property name="tabShape">
+         <enum>QTabWidget::Triangular</enum>
+        </property>
+        <property name="currentIndex">
+         <number>0</number>
+        </property>
+        <widget class="QWidget" name="tab_2">
+         <attribute name="title">
+          <string>ls</string>
+         </attribute>
+         <widget class="QTextBrowser" name="textBrowser_terminal_ls">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>300</y>
+            <width>711</width>
+            <height>181</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_5">
+          <property name="geometry">
+           <rect>
+            <x>330</x>
+            <y>120</y>
+            <width>161</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Calibri</family>
+            <pointsize>10</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>Choose How to run file:</string>
+          </property>
+         </widget>
+         <widget class="QComboBox" name="comboBox_ls">
+          <property name="geometry">
+           <rect>
+            <x>340</x>
+            <y>150</y>
+            <width>111</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <item>
+           <property name="text">
+            <string>ls</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>ls -a</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>ls -l</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>ls -r</string>
+           </property>
+          </item>
+         </widget>
+         <widget class="QPushButton" name="pushButton_run_ls">
+          <property name="geometry">
+           <rect>
+            <x>360</x>
+            <y>190</y>
+            <width>75</width>
+            <height>23</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Calibri</family>
+            <pointsize>9</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>RUN</string>
+          </property>
+         </widget>
+         <widget class="QGroupBox" name="groupBox_2">
+          <property name="geometry">
+           <rect>
+            <x>170</x>
+            <y>20</y>
+            <width>491</width>
+            <height>80</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Calibri</family>
+            <pointsize>9</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color:white;</string>
+          </property>
+          <property name="title">
+           <string>Load File:</string>
+          </property>
+          <widget class="QPushButton" name="pushButton_load_ls">
+           <property name="geometry">
+            <rect>
+             <x>380</x>
+             <y>30</y>
+             <width>75</width>
+             <height>21</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <family>Calibri</family>
+             <pointsize>9</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>Browse</string>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="lineEdit_loadfile_ls">
+           <property name="geometry">
+            <rect>
+             <x>50</x>
+             <y>30</y>
+             <width>321</width>
+             <height>20</height>
+            </rect>
+           </property>
+          </widget>
+         </widget>
+        </widget>
+        <widget class="QWidget" name="tab_3">
+         <attribute name="title">
+          <string>cp</string>
+         </attribute>
+         <widget class="QTextBrowser" name="textBrowser_terminal_cp">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>300</y>
+            <width>731</width>
+            <height>192</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="lineEdit_choose_file_cp">
+          <property name="geometry">
+           <rect>
+            <x>220</x>
+            <y>40</y>
+            <width>321</width>
+            <height>20</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pushButton_load_file_cp">
+          <property name="geometry">
+           <rect>
+            <x>550</x>
+            <y>40</y>
+            <width>75</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Calibri</family>
+            <pointsize>9</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>Browse</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pushButton_run_cp">
+          <property name="geometry">
+           <rect>
+            <x>360</x>
+            <y>190</y>
+            <width>75</width>
+            <height>23</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Calibri</family>
+            <pointsize>9</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>RUN</string>
+          </property>
+         </widget>
+         <widget class="QGroupBox" name="groupBox_3">
+          <property name="geometry">
+           <rect>
+            <x>170</x>
+            <y>20</y>
+            <width>491</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Calibri</family>
+            <pointsize>9</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color:white;</string>
+          </property>
+          <property name="title">
+           <string>Choose File:</string>
+          </property>
+         </widget>
+         <widget class="QGroupBox" name="groupBox_4">
+          <property name="geometry">
+           <rect>
+            <x>170</x>
+            <y>90</y>
+            <width>491</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Calibri</family>
+            <pointsize>9</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color:white;</string>
+          </property>
+          <property name="title">
+           <string>Choose Destination:</string>
+          </property>
+          <widget class="QPushButton" name="pushButton_load_dest_cp">
+           <property name="geometry">
+            <rect>
+             <x>380</x>
+             <y>20</y>
+             <width>75</width>
+             <height>21</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <family>Calibri</family>
+             <pointsize>9</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>Browse</string>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="lineEdit_choose_dest_cp">
+           <property name="geometry">
+            <rect>
+             <x>50</x>
+             <y>20</y>
+             <width>321</width>
+             <height>20</height>
+            </rect>
+           </property>
+          </widget>
+         </widget>
+         <zorder>textBrowser_terminal_cp</zorder>
+         <zorder>pushButton_run_cp</zorder>
+         <zorder>groupBox_3</zorder>
+         <zorder>groupBox_4</zorder>
+         <zorder>lineEdit_choose_file_cp</zorder>
+         <zorder>pushButton_load_file_cp</zorder>
+        </widget>
+        <widget class="QWidget" name="tab_4">
+         <attribute name="title">
+          <string>ln</string>
+         </attribute>
+         <widget class="QPushButton" name="pushButton_run_ln">
+          <property name="geometry">
+           <rect>
+            <x>360</x>
+            <y>190</y>
+            <width>75</width>
+            <height>23</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Calibri</family>
+            <pointsize>9</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>RUN</string>
+          </property>
+         </widget>
+         <widget class="QTextBrowser" name="textBrowser_terminal_ln">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>300</y>
+            <width>731</width>
+            <height>192</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QGroupBox" name="groupBox_5">
+          <property name="geometry">
+           <rect>
+            <x>170</x>
+            <y>20</y>
+            <width>491</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Calibri</family>
+            <pointsize>9</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color:white;</string>
+          </property>
+          <property name="title">
+           <string>Choose File:</string>
+          </property>
+          <widget class="QLineEdit" name="lineEdit_choose_file_ln">
+           <property name="geometry">
+            <rect>
+             <x>50</x>
+             <y>20</y>
+             <width>321</width>
+             <height>20</height>
+            </rect>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="pushButton_load_file_ln">
+           <property name="geometry">
+            <rect>
+             <x>380</x>
+             <y>20</y>
+             <width>75</width>
+             <height>21</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <family>Calibri</family>
+             <pointsize>9</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>Browse</string>
+           </property>
+          </widget>
+         </widget>
+         <widget class="QGroupBox" name="groupBox_6">
+          <property name="geometry">
+           <rect>
+            <x>170</x>
+            <y>90</y>
+            <width>491</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Calibri</family>
+            <pointsize>9</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color:white;</string>
+          </property>
+          <property name="title">
+           <string>Choose Destination:</string>
+          </property>
+          <widget class="QPushButton" name="pushButton_load_dest_ln">
+           <property name="geometry">
+            <rect>
+             <x>380</x>
+             <y>20</y>
+             <width>75</width>
+             <height>21</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <family>Calibri</family>
+             <pointsize>9</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>Browse</string>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="lineEdit_choose_dest_ln">
+           <property name="geometry">
+            <rect>
+             <x>50</x>
+             <y>20</y>
+             <width>321</width>
+             <height>20</height>
+            </rect>
+           </property>
+          </widget>
+         </widget>
+        </widget>
+        <widget class="QWidget" name="tab_5">
+         <attribute name="title">
+          <string>mv</string>
+         </attribute>
+         <widget class="QPushButton" name="pushButton_load_file_mv">
+          <property name="geometry">
+           <rect>
+            <x>550</x>
+            <y>40</y>
+            <width>75</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Calibri</family>
+            <pointsize>9</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>Browse</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="lineEdit_choose_file_mv">
+          <property name="geometry">
+           <rect>
+            <x>220</x>
+            <y>40</y>
+            <width>321</width>
+            <height>20</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pushButton_run_mv">
+          <property name="geometry">
+           <rect>
+            <x>360</x>
+            <y>190</y>
+            <width>75</width>
+            <height>23</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Calibri</family>
+            <pointsize>9</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>RUN</string>
+          </property>
+         </widget>
+         <widget class="QTextBrowser" name="textBrowser_terminal_mv">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>300</y>
+            <width>731</width>
+            <height>192</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QGroupBox" name="groupBox_8">
+          <property name="geometry">
+           <rect>
+            <x>170</x>
+            <y>20</y>
+            <width>491</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Calibri</family>
+            <pointsize>9</pointsize>
+           </font>
+          </property>
+          <property name="title">
+           <string>Choose File:</string>
+          </property>
+         </widget>
+         <widget class="QGroupBox" name="groupBox_7">
+          <property name="geometry">
+           <rect>
+            <x>170</x>
+            <y>90</y>
+            <width>491</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Calibri</family>
+            <pointsize>9</pointsize>
+           </font>
+          </property>
+          <property name="title">
+           <string>Choose Destination:</string>
+          </property>
+          <widget class="QLineEdit" name="lineEdit_choose_dest_mv">
+           <property name="geometry">
+            <rect>
+             <x>50</x>
+             <y>20</y>
+             <width>321</width>
+             <height>20</height>
+            </rect>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="pushButton_load_dest_mv">
+           <property name="geometry">
+            <rect>
+             <x>380</x>
+             <y>20</y>
+             <width>75</width>
+             <height>21</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <family>Calibri</family>
+             <pointsize>9</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>Browse</string>
+           </property>
+          </widget>
+         </widget>
+         <zorder>pushButton_run_mv</zorder>
+         <zorder>textBrowser_terminal_mv</zorder>
+         <zorder>groupBox_8</zorder>
+         <zorder>groupBox_7</zorder>
+         <zorder>lineEdit_choose_file_mv</zorder>
+         <zorder>pushButton_load_file_mv</zorder>
+        </widget>
+        <widget class="QWidget" name="tab_9">
+         <attribute name="title">
+          <string>wc</string>
+         </attribute>
+         <widget class="QTextBrowser" name="textBrowser_terminal_wc">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>300</y>
+            <width>731</width>
+            <height>192</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pushButton_run_wc">
+          <property name="geometry">
+           <rect>
+            <x>360</x>
+            <y>190</y>
+            <width>75</width>
+            <height>23</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Calibri</family>
+            <pointsize>9</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>RUN</string>
+          </property>
+         </widget>
+         <widget class="QGroupBox" name="groupBox_9">
+          <property name="geometry">
+           <rect>
+            <x>170</x>
+            <y>20</y>
+            <width>491</width>
+            <height>80</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Calibri</family>
+            <pointsize>9</pointsize>
+           </font>
+          </property>
+          <property name="title">
+           <string>Load File:</string>
+          </property>
+          <widget class="QPushButton" name="pushButton_load_wc">
+           <property name="geometry">
+            <rect>
+             <x>380</x>
+             <y>30</y>
+             <width>75</width>
+             <height>21</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <family>Calibri</family>
+             <pointsize>9</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>Browse</string>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="lineEdit_loadfile_wc">
+           <property name="geometry">
+            <rect>
+             <x>50</x>
+             <y>30</y>
+             <width>321</width>
+             <height>20</height>
+            </rect>
+           </property>
+          </widget>
+         </widget>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab">
+       <attribute name="title">
+        <string>Systems</string>
+       </attribute>
+       <widget class="QTabWidget" name="tabWidget_3">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>781</width>
+          <height>531</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Calibri</family>
+          <pointsize>11</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color:white;
+
+</string>
+        </property>
+        <property name="tabShape">
+         <enum>QTabWidget::Triangular</enum>
+        </property>
+        <property name="currentIndex">
+         <number>3</number>
+        </property>
+        <widget class="QWidget" name="tab_12">
+         <attribute name="title">
+          <string>df</string>
+         </attribute>
+         <widget class="QPushButton" name="pushButton_run_df">
+          <property name="geometry">
+           <rect>
+            <x>360</x>
+            <y>130</y>
+            <width>75</width>
+            <height>23</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Calibri</family>
+            <pointsize>9</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>RUN</string>
+          </property>
+         </widget>
+         <widget class="QTextBrowser" name="textBrowser_terminal_df">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>300</y>
+            <width>731</width>
+            <height>192</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QGroupBox" name="groupBox_10">
+          <property name="geometry">
+           <rect>
+            <x>300</x>
+            <y>30</y>
+            <width>191</width>
+            <height>71</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Calibri</family>
+            <pointsize>9</pointsize>
+           </font>
+          </property>
+          <property name="title">
+           <string>Choose Command:</string>
+          </property>
+          <widget class="QComboBox" name="comboBox_df">
+           <property name="geometry">
+            <rect>
+             <x>40</x>
+             <y>30</y>
+             <width>121</width>
+             <height>22</height>
+            </rect>
+           </property>
+           <item>
+            <property name="text">
+             <string>df</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>df -h</string>
+            </property>
+           </item>
+          </widget>
+         </widget>
+        </widget>
+        <widget class="QWidget" name="tab_13">
+         <attribute name="title">
+          <string>kill</string>
+         </attribute>
+         <widget class="QTextBrowser" name="textBrowser_terminal_kill">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>300</y>
+            <width>731</width>
+            <height>192</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pushButton_run_kill">
+          <property name="geometry">
+           <rect>
+            <x>360</x>
+            <y>130</y>
+            <width>75</width>
+            <height>23</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Calibri</family>
+            <pointsize>9</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>RUN</string>
+          </property>
+         </widget>
+         <widget class="QGroupBox" name="groupBox_11">
+          <property name="geometry">
+           <rect>
+            <x>300</x>
+            <y>30</y>
+            <width>191</width>
+            <height>71</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Calibri</family>
+            <pointsize>9</pointsize>
+           </font>
+          </property>
+          <property name="title">
+           <string>Enter Process ID:</string>
+          </property>
+          <widget class="QLineEdit" name="lineEdit_process_id_kill">
+           <property name="geometry">
+            <rect>
+             <x>30</x>
+             <y>30</y>
+             <width>141</width>
+             <height>21</height>
+            </rect>
+           </property>
+          </widget>
+         </widget>
+        </widget>
+        <widget class="QWidget" name="tab_14">
+         <attribute name="title">
+          <string>ps</string>
+         </attribute>
+         <widget class="QPushButton" name="pushButton_run_ps">
+          <property name="geometry">
+           <rect>
+            <x>360</x>
+            <y>180</y>
+            <width>75</width>
+            <height>23</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Algerian</family>
+            <pointsize>9</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>RUN</string>
+          </property>
+         </widget>
+         <widget class="QTextBrowser" name="textBrowser_terminal_ps">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>300</y>
+            <width>731</width>
+            <height>192</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QGroupBox" name="groupBox_12">
+          <property name="geometry">
+           <rect>
+            <x>300</x>
+            <y>30</y>
+            <width>191</width>
+            <height>71</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Calibri</family>
+            <pointsize>9</pointsize>
+           </font>
+          </property>
+          <property name="title">
+           <string>Choose Command:</string>
+          </property>
+          <widget class="QComboBox" name="comboBox_ps">
+           <property name="geometry">
+            <rect>
+             <x>40</x>
+             <y>30</y>
+             <width>121</width>
+             <height>22</height>
+            </rect>
+           </property>
+           <item>
+            <property name="text">
+             <string>ps</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>ps -e</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>ps -ef</string>
+            </property>
+           </item>
+          </widget>
+         </widget>
+        </widget>
+        <widget class="QWidget" name="tab_16">
+         <attribute name="title">
+          <string>top</string>
+         </attribute>
+         <widget class="QPushButton" name="pushButton_run_top">
+          <property name="geometry">
+           <rect>
+            <x>340</x>
+            <y>90</y>
+            <width>75</width>
+            <height>23</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Calibri</family>
+            <pointsize>11</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>RUN</string>
+          </property>
+         </widget>
+         <widget class="QTextBrowser" name="textBrowser_terminal_top">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>300</y>
+            <width>731</width>
+            <height>192</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pushButton_stop_top">
+          <property name="geometry">
+           <rect>
+            <x>340</x>
+            <y>120</y>
+            <width>75</width>
+            <height>23</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Calibri</family>
+            <pointsize>11</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>STOP</string>
+          </property>
+         </widget>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_17">
+       <attribute name="title">
+        <string>Admin</string>
+       </attribute>
+       <widget class="QTabWidget" name="tabWidget_4">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>781</width>
+          <height>531</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Calibri</family>
+          <pointsize>11</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color:white;</string>
+        </property>
+        <property name="tabShape">
+         <enum>QTabWidget::Triangular</enum>
+        </property>
+        <property name="currentIndex">
+         <number>0</number>
+        </property>
+        <widget class="QWidget" name="tab_18">
+         <attribute name="title">
+          <string>chmod</string>
+         </attribute>
+         <widget class="QPushButton" name="pushButton_run_chmod">
+          <property name="geometry">
+           <rect>
+            <x>350</x>
+            <y>270</y>
+            <width>75</width>
+            <height>23</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Calibri</family>
+            <pointsize>9</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>RUN</string>
+          </property>
+         </widget>
+         <widget class="QTextBrowser" name="textBrowser_terminal_chmod">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>300</y>
+            <width>731</width>
+            <height>192</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="checkBox_add_read_chmod">
+          <property name="geometry">
+           <rect>
+            <x>229</x>
+            <y>170</y>
+            <width>131</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Calibri</family>
+            <pointsize>9</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>Add Read</string>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="checkBox_add_write_chmod">
+          <property name="geometry">
+           <rect>
+            <x>229</x>
+            <y>200</y>
+            <width>131</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Calibri</family>
+            <pointsize>9</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>Add Write</string>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="checkBox_add_execute_chmod">
+          <property name="geometry">
+           <rect>
+            <x>229</x>
+            <y>230</y>
+            <width>131</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Calibri</family>
+            <pointsize>9</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>Add Execute</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="lineEdit_loadfile_chmod">
+          <property name="geometry">
+           <rect>
+            <x>230</x>
+            <y>40</y>
+            <width>321</width>
+            <height>20</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pushButton_load_chmod">
+          <property name="geometry">
+           <rect>
+            <x>560</x>
+            <y>40</y>
+            <width>75</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Calibri</family>
+            <pointsize>9</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>Browse</string>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="checkBox_remove_write_chmod">
+          <property name="geometry">
+           <rect>
+            <x>410</x>
+            <y>200</y>
+            <width>161</width>
+            <height>17</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Calibri</family>
+            <pointsize>9</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>Remove Write</string>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="checkBox_remove_read_chmod">
+          <property name="geometry">
+           <rect>
+            <x>410</x>
+            <y>170</y>
+            <width>161</width>
+            <height>17</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Calibri</family>
+            <pointsize>9</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>Remove Read</string>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="checkBox_remove_execute_chmod">
+          <property name="geometry">
+           <rect>
+            <x>410</x>
+            <y>230</y>
+            <width>171</width>
+            <height>17</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Calibri</family>
+            <pointsize>9</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>Remove Execute</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_25">
+          <property name="geometry">
+           <rect>
+            <x>230</x>
+            <y>140</y>
+            <width>131</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Calibri</family>
+            <pointsize>9</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>Add Permission:</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_26">
+          <property name="geometry">
+           <rect>
+            <x>410</x>
+            <y>140</y>
+            <width>151</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Calibri</family>
+            <pointsize>9</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>Remove Permission:</string>
+          </property>
+         </widget>
+         <widget class="QGroupBox" name="groupBox_14">
+          <property name="geometry">
+           <rect>
+            <x>170</x>
+            <y>20</y>
+            <width>491</width>
+            <height>51</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Calibri</family>
+            <pointsize>9</pointsize>
+           </font>
+          </property>
+          <property name="title">
+           <string>Load File:</string>
+          </property>
+         </widget>
+         <widget class="QGroupBox" name="groupBox_15">
+          <property name="geometry">
+           <rect>
+            <x>310</x>
+            <y>80</y>
+            <width>171</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Calibri</family>
+            <pointsize>9</pointsize>
+           </font>
+          </property>
+          <property name="title">
+           <string>Choose Command:</string>
+          </property>
+          <widget class="QComboBox" name="comboBox_chmod">
+           <property name="geometry">
+            <rect>
+             <x>30</x>
+             <y>20</y>
+             <width>121</width>
+             <height>22</height>
+            </rect>
+           </property>
+           <item>
+            <property name="text">
+             <string>chmod</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>chmod -u</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>chmod -g</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>chmod -o</string>
+            </property>
+           </item>
+          </widget>
+         </widget>
+         <zorder>pushButton_run_chmod</zorder>
+         <zorder>textBrowser_terminal_chmod</zorder>
+         <zorder>checkBox_add_read_chmod</zorder>
+         <zorder>checkBox_add_write_chmod</zorder>
+         <zorder>checkBox_add_execute_chmod</zorder>
+         <zorder>checkBox_remove_write_chmod</zorder>
+         <zorder>checkBox_remove_read_chmod</zorder>
+         <zorder>checkBox_remove_execute_chmod</zorder>
+         <zorder>label_25</zorder>
+         <zorder>label_26</zorder>
+         <zorder>groupBox_14</zorder>
+         <zorder>lineEdit_loadfile_chmod</zorder>
+         <zorder>pushButton_load_chmod</zorder>
+         <zorder>groupBox_15</zorder>
+        </widget>
+        <widget class="QWidget" name="tab_19">
+         <attribute name="title">
+          <string>Add User</string>
+         </attribute>
+         <widget class="QTextBrowser" name="textBrowser_terminal_addUser">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>300</y>
+            <width>731</width>
+            <height>192</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pushButton_add_user">
+          <property name="geometry">
+           <rect>
+            <x>344</x>
+            <y>140</y>
+            <width>91</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Calibri</family>
+            <pointsize>9</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>Add User</string>
+          </property>
+         </widget>
+         <widget class="QGroupBox" name="groupBox_16">
+          <property name="geometry">
+           <rect>
+            <x>300</x>
+            <y>30</y>
+            <width>181</width>
+            <height>71</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Calibri</family>
+            <pointsize>9</pointsize>
+           </font>
+          </property>
+          <property name="title">
+           <string>Username:</string>
+          </property>
+          <widget class="QLineEdit" name="lineEdit_username">
+           <property name="geometry">
+            <rect>
+             <x>20</x>
+             <y>30</y>
+             <width>141</width>
+             <height>21</height>
+            </rect>
+           </property>
+          </widget>
+         </widget>
+        </widget>
+        <widget class="QWidget" name="tab_20">
+         <attribute name="title">
+          <string>Chown</string>
+         </attribute>
+         <widget class="QTextBrowser" name="textBrowser_terminal_chown_user">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>300</y>
+            <width>731</width>
+            <height>192</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pushButton_chown_user">
+          <property name="geometry">
+           <rect>
+            <x>344</x>
+            <y>235</y>
+            <width>91</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Run</string>
+          </property>
+         </widget>
+         <widget class="QGroupBox" name="groupBox_17">
+          <property name="geometry">
+           <rect>
+            <x>300</x>
+            <y>30</y>
+            <width>181</width>
+            <height>71</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Calibri</family>
+            <pointsize>9</pointsize>
+           </font>
+          </property>
+          <property name="title">
+           <string>chown to user:</string>
+          </property>
+          <widget class="QLineEdit" name="lineEdit_username_chown">
+           <property name="geometry">
+            <rect>
+             <x>20</x>
+             <y>30</y>
+             <width>141</width>
+             <height>21</height>
+            </rect>
+           </property>
+          </widget>
+         </widget>
+         <widget class="QGroupBox" name="groupBox_18">
+          <property name="geometry">
+           <rect>
+            <x>154</x>
+            <y>144</y>
+            <width>491</width>
+            <height>51</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Calibri</family>
+            <pointsize>9</pointsize>
+           </font>
+          </property>
+          <property name="title">
+           <string>Load File:</string>
+          </property>
+          <widget class="QLineEdit" name="lineEdit_loadfile_chown">
+           <property name="geometry">
+            <rect>
+             <x>42</x>
+             <y>19</y>
+             <width>321</width>
+             <height>20</height>
+            </rect>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="pushButton_load_chown">
+           <property name="geometry">
+            <rect>
+             <x>372</x>
+             <y>19</y>
+             <width>75</width>
+             <height>21</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <family>Calibri</family>
+             <pointsize>9</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>Browse</string>
+           </property>
+          </widget>
+         </widget>
+        </widget>
+       </widget>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>818</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
